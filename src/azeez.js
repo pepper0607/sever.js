@@ -109,6 +109,6 @@ router.post('/users/signup', async (req, res) => {
 });
 
 app.listen(config.port, () => {
-  console.log(`Server running on http://localhost:${config.port}`);
+  console.log(`Server1 running on http://localhost:${config.port}`);
 });
 
